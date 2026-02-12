@@ -1,0 +1,98 @@
+Passo 1: Inicializar e Preparar
+--------------------------------
+# 1. Inicio o Git na pasta do projeto
+git init
+
+# 2. Adiciono todos os ficheiros ao "pacote" de envio
+git add .
+
+# 3. Fecho o pacote com uma mensagem
+git commit -m "App EcoCampus para defesa"
+
+# 4. Defino o nome da branch principal como 'main' (padrão atual)
+git branch -M main
+
+Passo 2: Ligar ao GitHub e Enviar
+---------------------------------
+# 5. Liga ao meu PC ao repositório remoto no GitHub
+git remote add origin https://github.com/JBelizard/EcoCampus-IPVC.git
+
+# 6. Envio dos ficheiros
+git push -u origin main
+
+---------------------//----------------------//--------------------------
+
+
+gist.github.com
+
+CRIAÇÃO DA MINHA API "DADOS REAIS" - GITHUB "gist.github.com"
+--------------------------------------------------------------
+
+1º Gist (Cantina) - URLs DA BARRA DE ENDEREÇO
+---------------------------------------------
+https://gist.githubusercontent.com/JBelizard/ab8fb9f51a5a6cc8c7c19b131d74045a/raw/f06ad218abedeb85ea872002f694f18756787910/menu.json
+
+2º Gist (Bar) - URLs DA BARRA DE ENDEREÇO
+-----------------------------------------
+https://gist.githubusercontent.com/JBelizard/4c2295142d2487b9a7d73d6ba31d6e10/raw/0c0f1fdf928d18460408d5e602a923eeaaf92ac3/products.json
+
+JSON da Ementa (Cantina)
+------------------------
+{
+  "soup": {
+    "name": "Sopa de Legumes",
+    "ingredients": "Batata, Cenoura, Couve, Azeite",
+    "price": 0.80
+  },
+  "meat": {
+    "name": "Bife de Frango Grelhado",
+    "ingredients": "Peito de frango, Arroz, Salada mista",
+    "price": 2.95
+  },
+  "fish": {
+    "name": "Pescada Cozida",
+    "ingredients": "Pescada, Batata cozida, Brócolos",
+    "price": 2.95
+  },
+  "diet": {
+    "name": "Omolete Simples",
+    "ingredients": "Ovos, Salsa, Arroz branco",
+    "price": 2.50
+  }
+}
+
+
+JSON do Bar (Produtos)
+----------------------
+[
+  {
+    "name": "Café",
+    "price": 0.70,
+    "image": "https://i.imgur.com/exampleCafe.png"
+  },
+  {
+    "name": "Pão Misto",
+    "price": 1.20,
+    "image": ""
+  },
+  {
+    "name": "Pastel de Nata",
+    "price": 1.10,
+    "image": ""
+  },
+  {
+    "name": "Sumo Natural",
+    "price": 2.50,
+    "image": ""
+  },
+  {
+    "name": "Sandes de Atum",
+    "price": 2.80,
+    "image": ""
+  }
+]
+
+
+
+
+
